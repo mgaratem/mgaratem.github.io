@@ -5,15 +5,18 @@ title: Resume
 
 # Curriculum Vitae
 
-Download PDF version [here](../assets/files/resume-latest.pdf) 👈
+[![Button Icon]][CV]
+
 
 {% include contact.html %}
+
+<br>
 
 ## 🧑🏽‍💻 Work Experience
 
 ---
-
-<mark><strong>Backend Developer</strong> - Jumpitt / i-CAR (March 2020 - January 2024)</mark>
+<br>
+<mark>➞ <strong>Backend Developer</strong> - Jumpitt / i-CAR (March 2020 - January 2024)</mark>
 
 Web applications, Web Scrapping and API implementation & integration.
 
@@ -27,7 +30,7 @@ Web applications, Web Scrapping and API implementation & integration.
 * Develop technical documentation and provide constant support to users adopting the system.
 * Work with various frameworks in different programming languages, implementing microservices, APIs, and web applications as an integral part of responsibilities in the project.
 
-
+<br>
 ## 🎓 Education
 
 ---
@@ -36,7 +39,20 @@ Web applications, Web Scrapping and API implementation & integration.
 
 <strong>Computer Engineering</strong> - Pontificia Universidad Católica de Valparaíso (March 2017 - January 2020)
 
+<br>
+## 📜 Certifications & Courses
 
+---
+
+<strong>EF SET English Certificate 73/100 (C2 Proficient)</strong> - EF Standard English Test (EF SET), 2024
+
+<strong>Agile Leadership Techniques</strong> - Mando Medio, 2022
+
+<strong>B1 Preliminary 160/170 (B2 Independent)</strong> - Cambridge Assessment English, 2019
+
+<strong>Negotiation and Conflict Resolution</strong> - Pontificia Universidad Católica de Valparaíso, 2018
+
+<br>
 ## 💬 Languages
 
 ---
@@ -44,6 +60,12 @@ Web applications, Web Scrapping and API implementation & integration.
 * <strong>English:</strong> Advanced
 * <strong>Spanish:</strong> Native
 
+<br>
 * * *
 
 Go back [{% include svg/arrow-left-circled.svg %}]({{ site.url }})
+
+<!---------------------------------------------------------------------------->
+
+[CV]: ../assets/files/resume-latest.pdf
+[Button Icon]: https://img.shields.io/badge/Download_PDF_Version-E69138?style=for-the-badge&logoColor=white&logo=DocuSign

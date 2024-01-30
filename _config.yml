@@ -1,17 +1,17 @@
 title: "Macarena Gárate"
-description: ""
+description: "Portfolio made in 'cvless' Jekyll theme for a beautiful online CV"
 baseurl: ""
-url: ""
+url: "https://mgaratem.github.io/"
 
 theme: minima
 
 # site settings
-taglong: Backend Developer
+taglong: Ssr. Backend Developer
 tagshort: Backend Developer
 
 # social media links
 social:
-  github: mgarate
+  github: mgaratem
   linkedin: mgaratem
   stackoverflow: 135801/mgarate
 
@@ -32,9 +32,6 @@ plugins:
 sass:
   style: compressed
   sourcemap: never
-
-feed:
-  path: atom.xml
 
 autopages:
   enabled: false

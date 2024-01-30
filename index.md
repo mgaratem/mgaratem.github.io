@@ -11,7 +11,9 @@ I'm energetic and committed, enjoy teamwork, and possess soft and organizational
 
 I'm excited about the opportunity to collaborate with you and contribute to new projects 😁
 
-You can check more about me and my experience [here!](/resume)
+You can check more about me and my resume [here!](/resume) 👈
+
+<br>
 
 ## 🛠️ My Stack
 
@@ -24,17 +26,24 @@ You can check more about me and my experience [here!](/resume)
 * <strong>Cloud Services</strong>: AWS (Lambda, S3)
 * <strong>Operating Systems</strong>: Ubuntu, Linux, Windows
 
+<br>
+
 ## 🚀 Projects
 
 ---
 
-### <mark>icarcheck!</mark>
+### <mark>➞ icarcheck!</mark>
 
 Integrated Vehicle Reports System, icarcheck! is the efficient solution for obtaining vehicle reports when considering the purchase of a used car. You enter the license plate, we gather key information, and send you a detailed report to your email.
 
-<strong>Technology Stack</strong>: Laravel 9, Node.js, Flask, MongoDB and PostgreSQL.
+<strong>Technology Stack</strong>: Laravel 9, Node.js, Flask, MongoDB and PostgreSQL
 
-[Find out more](https://www.icarcheck.cl/)👀
+[![Button Icon]](icarcheck)
 
 
 <!-- {% include archive.html %} -->
+
+<!---------------------------------------------------------------------------->
+
+[icarcheck]: https://www.icarcheck.cl
+[Button Icon]: https://img.shields.io/badge/Find_out_more-999999?style=for-the-badge&logoColor=white&logo=googlechrome
