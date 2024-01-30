@@ -1,0 +1,63 @@
+title: "Macarena Gárate"
+description: ""
+baseurl: ""
+url: ""
+
+theme: cvless
+
+# site settings
+taglong: Backend Developer
+tagshort: Backend Developer
+
+# social media links
+social:
+  github: mgarate
+  linkedin: mgaratem
+  stackoverflow: 135801/mgarate
+
+# author settings
+author:
+  name: Macarena Gárate
+  email: mgaratemu@gmail.com
+photo: assets/files/photo.jpg
+address: Quilpué, Chile
+phone: +56 9 74519090
+
+exclude:
+  - cvless.gemspec
+  - LICENSE
+  - README.md
+  - screenshot.png
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate-v2
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+sass:
+  style: compressed
+  sourcemap: never
+
+feed:
+  path: atom.xml
+
+autopages:
+  enabled: false
+
+pagination:
+  enabled: true
+  per_page: 1
+  sort_reverse: true
+  permalink: /:num/
+  title: ":title &middot; Page :num"
+
+# build settings
+permalink: pretty
+exclude:
+  - docker-compose.yml
+  - LICENSE
+  - README.md
+
+parallel_localization: false
