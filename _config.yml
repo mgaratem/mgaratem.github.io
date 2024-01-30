@@ -3,7 +3,7 @@ description: ""
 baseurl: ""
 url: ""
 
-theme: cvless
+theme: minima
 
 # site settings
 taglong: Backend Developer
@@ -19,15 +19,8 @@ social:
 author:
   name: Macarena Gárate
   email: mgaratemu@gmail.com
-photo: assets/files/photo.jpg
 address: Quilpué, Chile
 phone: +56 9 74519090
-
-exclude:
-  - cvless.gemspec
-  - LICENSE
-  - README.md
-  - screenshot.png
 
 plugins:
   - jekyll-feed
