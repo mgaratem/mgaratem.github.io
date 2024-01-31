@@ -43,6 +43,12 @@ Integrated Vehicle Reports System, icarcheck! is the efficient solution for obta
 
 <!-- {% include archive.html %} -->
 
+---
+
+<br>
+
+{% include linkedin.html %}
+
 <!---------------------------------------------------------------------------->
 
 [icarcheck]: https://www.icarcheck.cl

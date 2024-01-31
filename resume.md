@@ -31,6 +31,7 @@ Web applications, Web Scrapping and API implementation & integration.
 * Work with various frameworks in different programming languages, implementing microservices, APIs, and web applications as an integral part of responsibilities in the project.
 
 <br>
+
 ## 🎓 Education
 
 ---
@@ -40,6 +41,7 @@ Web applications, Web Scrapping and API implementation & integration.
 <strong>Computer Engineering</strong> - Pontificia Universidad Católica de Valparaíso (March 2017 - January 2020)
 
 <br>
+
 ## 📜 Certifications & Courses
 
 ---
@@ -53,18 +55,16 @@ Web applications, Web Scrapping and API implementation & integration.
 <strong>Negotiation and Conflict Resolution</strong> - Pontificia Universidad Católica de Valparaíso, 2018
 
 <br>
+
 ## 💬 Languages
 
 ---
 
 * <strong>English:</strong> Advanced
 * <strong>Spanish:</strong> Native
-
+          
 <br>
 
-{% include linkedin.html %}
-              
-<br>
 * * *
 
 Go back [{% include svg/arrow-left-circled.svg %}]({{ site.url }})
