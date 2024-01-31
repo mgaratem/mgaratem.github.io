@@ -12,7 +12,7 @@ title: Resume
 
 <br>
 
-## 🧑🏽‍💻 Work Experience
+## 💼 Work Experience
 
 ---
 <br>
@@ -68,4 +68,4 @@ Go back [{% include svg/arrow-left-circled.svg %}]({{ site.url }})
 <!---------------------------------------------------------------------------->
 
 [CV]: ../assets/files/resume-latest.pdf
-[Button Icon]: https://img.shields.io/badge/Download_PDF_Version-E69138?style=for-the-badge&logoColor=white&logo=DocuSign
+[Button Icon]: https://img.shields.io/badge/Download_PDF-999999?style=for-the-badge&logoColor=white&logo=DocuSign

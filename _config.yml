@@ -22,6 +22,8 @@ author:
 address: Quilpué, Chile
 phone: +56 9 74519090
 
+photo: assets/files/techno.png
+
 plugins:
   - jekyll-feed
   - jekyll-gist
