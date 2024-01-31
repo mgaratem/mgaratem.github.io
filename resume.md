@@ -61,6 +61,10 @@ Web applications, Web Scrapping and API implementation & integration.
 * <strong>Spanish:</strong> Native
 
 <br>
+
+{% include linkedin.html %}
+              
+<br>
 * * *
 
 Go back [{% include svg/arrow-left-circled.svg %}]({{ site.url }})
