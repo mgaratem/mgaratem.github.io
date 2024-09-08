@@ -20,7 +20,7 @@ author:
   name: Macarena Gárate
   email: mgaratemu@gmail.com
 address: Quilpué, Chile
-phone: +56 9 74519090
+phone: (+569) 74519090
 
 photo: assets/files/techno.png
 
@@ -32,8 +32,9 @@ plugins:
   - jekyll-sitemap
 
 sass:
-  style: compressed
-  sourcemap: never
+  sass_dir: _sass           # Directorio donde se encuentran los archivos SCSS
+  style: compressed         # Estilo del CSS generado: compressed, nested, expanded, etc.
+  sourcemap: never           # Configura la generación de mapas de origen: never, auto, always
 
 autopages:
   enabled: false

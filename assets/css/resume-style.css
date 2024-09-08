@@ -1,0 +1,251 @@
+/* Estilo para el contenido principal */
+.main-content {
+    margin-top: 60px; /* Espacio igual a la altura del navbar */
+    padding: 15px 15px; /* Espacio interior del contenido principal */
+}
+
+/* Estilo general para el navbar */
+.navbar {
+    width: 100%; /* Asegura que el navbar ocupe todo el ancho de la página */
+    border: 2px solid #555;
+    border-radius: 5px;
+    z-index: 1000; /* Asegura que el navbar esté por encima de otros elementos */
+}
+
+/* Estilo para el contenedor del nav */
+.navbar nav {
+    display: flex;
+    justify-content: space-between; /* Distribuye espacio entre los elementos del nav */
+    align-items: center; /* Centra el contenido del navbar verticalmente */
+    height: 40px; /* Altura del navbar */
+    padding: 5px; /* Espacio a los lados del navbar */
+}
+
+/* Estilo para la lista de navegación */
+.navbar ul {
+    list-style: none; /* Elimina los puntos de lista predeterminados */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Muestra los elementos de la lista en línea */
+}
+
+/* Estilo para los elementos de la lista */
+.navbar li {
+    margin: 0 7px; /* Espacio entre los elementos */
+}
+
+/* Estilo para los enlaces */
+.navbar a {
+    align-items: center;
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    font-size: 12px; /* Tamaño de fuente */
+    border-bottom: none;
+    transition: color 0.3s ease; /* Transición suave para el color del enlace */
+}
+
+.navbar nav ul li a:hover {
+    transform: scale(1.05);
+}
+
+/* General Styles */
+.resume-section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+}
+
+/* Section Title */
+.section-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+/* Job Details */
+.job-details {
+    margin-bottom: 20px;
+}
+
+.job-title {
+    font-weight: bold;
+}
+
+.company-name {
+    font-style: italic;
+    color: #555; /* Darker gray */
+}
+
+.job-summary {
+    margin: 10px 0;
+}
+
+/* Technologies Container */
+.technologies-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.technology-card {
+    border: 2px solid #555;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+    width: 60px; /* Adjust the width as needed */
+    height: 60px;
+    font-size: 0.6em; /* Tamaño de texto más pequeño */
+}
+
+.technology-icon {
+    width: 30px; /* Adjust the size as needed */
+    height: 30px;
+    object-fit: contain;
+}
+
+.technology-name {
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.technology-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Achievements */
+.achievements-title {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.achievements-list {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.achievements-list li {
+    margin-bottom: 10px;
+    font-size: 0.8em;
+}
+
+.education-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.education-card {
+    border: 2px solid #555;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.education-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.education-card p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.certifications-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.certification-card {
+    display: block;
+    border: 2px solid #333;
+    border-radius: 8px;
+    padding: 20px;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+    position: relative;
+}
+
+.certification-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+a.certification-card:hover {
+    border-bottom: none;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.certification-card p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.certification-card i {
+    font-size: 1.2rem;
+    color: #555;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    transition: color 0.3s ease;
+}
+
+.certification-card:hover i {
+    color: #fff;
+}
+
+.languages-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.language-card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 10px;
+    width: 250px;
+    height: 100px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.language-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+.language-flag {
+    font-size: 2em;
+    margin-right: 25px;
+}
+
+.language-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.language-name {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.language-level {
+    font-size: 0.8em;
+    color: #666;
+}
+
+
