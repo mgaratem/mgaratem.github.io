@@ -11,8 +11,23 @@ title: Home
 
 <br>
 
-{% include projects.html %}
+{% include contact.html %}
 
+<br>
+
+{% include resume/experiences.html %}
+
+<br>
+
+{% include resume/education.html %}
+
+<br>
+
+{% include resume/certifications.html %}
+
+<br>
+
+{% include resume/languages.html %}
 
 <br>
 
