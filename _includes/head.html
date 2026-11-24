@@ -2,11 +2,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  {% assign tab_name = site.shortname | default: site.title %}
   <title>
     {% if page.layout == "home" %}
-    {{ site.title }}
+    {{ tab_name }} &middot; Resume
     {% else %}
-    {{ site.title }} &middot; {{ page.title }}
+    {{ tab_name }} &middot; {{ page.title }}
     {% endif %}
   </title>
 
