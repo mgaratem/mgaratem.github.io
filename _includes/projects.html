@@ -1,38 +1,72 @@
-<h2>🚀 Projects</h2>
+<h2 id="projects">🚀 Projects</h2>
 
 <hr>
 
-<div class="projects-container">
-    
-    <!-- Project 1 -->
+<div class="projects-container" data-reveal>
+
     <div class="project-card">
-        <img src="{{ '/assets/files/flow.jpg' | prepend: site.url }}" alt="Flow Example Image">
-        <div class="project-title">Flow</div>
-        <div class="project-details">
-            <div class="project-description">
-                Flow is a comprehensive platform that offers a wide range of services including 
-                payment processing, financial management, and customer support solutions. 
-                Designed to streamline operations for businesses and enhance customer experiences.
-                <br><br>
-                <strong>Technology Stack</strong>: PHP, Laravel 9, MySQL, Cypress, Docker and AWS
+        <div class="project-media project-media--logo">
+            <img src="{{ '/assets/files/tesmotech.png' | relative_url }}" alt="TesmoTech">
+        </div>
+        <div class="project-body">
+            <h3 class="project-title">TesmoTech</h3>
+            <p class="project-description">
+                EHR platform for health centers and professionals in Chile. Interoperability is at its core,
+                so clinical records follow HL7 FHIR and SNOMED CT and providers can share patient data
+                under Chilean health regulation.
+            </p>
+            <div class="project-tags">
+                <span class="project-tag">HL7 FHIR</span>
+                <span class="project-tag">SNOMED CT</span>
+                <span class="project-tag">Laravel</span>
+                <span class="project-tag">Vue</span>
+                <span class="project-tag">Go</span>
+                <span class="project-tag">PostgreSQL</span>
             </div>
-            <a href="https://www.flow.cl" class="visit-link">Visit Page</a>
+            <a href="https://www.tesmotech.com" class="visit-link" target="_blank" rel="noopener">Visit site ↗</a>
         </div>
     </div>
 
-    <!-- Project 2 -->
     <div class="project-card">
-        <img src="{{ '/assets/files/icarcheck.svg' | prepend: site.url }}" alt="icarcheck! Example Image">
-        <div class="project-title">icarcheck!</div>
-        <div class="project-details">
-            <div class="project-description">
-                icarcheck! is the efficient solution for obtaining vehicle reports when considering the 
-                purchase of a used car.
-                Designed for all kinds of businesses and enhance buyer experiences.
-                <br><br>
-                <strong>Technology Stack</strong>: Laravel 9, Node.js, Flask, MongoDB and PostgreSQL
+        <div class="project-media project-media--logo">
+            <img src="{{ '/assets/files/flow-logo.png' | relative_url }}" alt="Flow">
+        </div>
+        <div class="project-body">
+            <h3 class="project-title">Flow</h3>
+            <p class="project-description">
+                Payment platform covering payment processing, financial management and customer support,
+                built to streamline operations for businesses.
+            </p>
+            <div class="project-tags">
+                <span class="project-tag">PHP</span>
+                <span class="project-tag">Laravel 9</span>
+                <span class="project-tag">MySQL</span>
+                <span class="project-tag">Cypress</span>
+                <span class="project-tag">Docker</span>
+                <span class="project-tag">AWS</span>
             </div>
-            <a href="https://www.icarcheck.cl" class="visit-link">Visit Page</a>
+            <a href="https://www.flow.cl" class="visit-link" target="_blank" rel="noopener">Visit site ↗</a>
         </div>
     </div>
+
+    <div class="project-card">
+        <div class="project-media project-media--logo project-media--art">
+            <img src="{{ '/assets/files/icarcheck-logo.jpg' | relative_url }}" alt="icarcheck!">
+        </div>
+        <div class="project-body">
+            <h3 class="project-title">icarcheck!</h3>
+            <p class="project-description">
+                Vehicle report service for buyers of used cars, serving both individuals and dealerships.
+            </p>
+            <div class="project-tags">
+                <span class="project-tag">Laravel 9</span>
+                <span class="project-tag">Node.js</span>
+                <span class="project-tag">Flask</span>
+                <span class="project-tag">MongoDB</span>
+                <span class="project-tag">PostgreSQL</span>
+            </div>
+            <a href="https://www.icarcheck.cl" class="visit-link" target="_blank" rel="noopener">Visit site ↗</a>
+        </div>
+    </div>
+
 </div>

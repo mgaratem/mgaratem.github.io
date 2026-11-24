@@ -11,6 +11,10 @@ title: Home
 
 <br>
 
+{% include projects.html %}
+
+<br>
+
 {% include contact.html %}
 
 <br>

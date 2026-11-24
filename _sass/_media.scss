@@ -1,14 +1,24 @@
 @media (prefers-color-scheme: dark) {
   html,
   html[data-theme="dark"] {
-    --color-background: var(--oc-gray-9);
-    --color-text: var(--oc-gray-3);
-    --color-heading: var(--oc-gray-3);
-    --color-code: var(--oc-gray-3);
-    --color-link: var(--oc-blue-3);
+    --color-background: #0b0f14;
+    --color-text: #c3ccd6;
+    --color-heading: #e8eef5;
+    --color-code: #c3ccd6;
+    --color-link: #5de4c7;
     --color-mark: var(--oc-gray-8);
-    --color-border: var(--oc-gray-7);
+    --color-border: rgba(255, 255, 255, 0.12);
     --color-button: var(--oc-gray-7);
+
+    --color-accent: #2de2a6;
+    --color-accent-2: #8b7cff;
+    --color-accent-soft: rgba(45, 226, 166, 0.12);
+    --color-surface: rgba(255, 255, 255, 0.035);
+    --color-surface-2: rgba(255, 255, 255, 0.07);
+    --color-card-border: rgba(255, 255, 255, 0.1);
+    --color-muted: #7b8794;
+    --color-glow: rgba(45, 226, 166, 0.35);
+    --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.4), 0 10px 30px rgba(0, 0, 0, 0.35);
   }
 
   html[data-theme="light"] {
@@ -20,6 +30,16 @@
     --color-mark: var(--oc-yellow-3);
     --color-border: var(--oc-gray-4);
     --color-button: var(--oc-gray-6);
+
+    --color-accent: #0a8f68;
+    --color-accent-2: #5b4bdb;
+    --color-accent-soft: rgba(10, 143, 104, 0.12);
+    --color-surface: rgba(16, 24, 32, 0.03);
+    --color-surface-2: rgba(16, 24, 32, 0.06);
+    --color-card-border: rgba(16, 24, 32, 0.12);
+    --color-muted: var(--oc-gray-7);
+    --color-glow: rgba(10, 143, 104, 0.25);
+    --shadow-card: 0 1px 2px rgba(16, 24, 32, 0.06), 0 8px 24px rgba(16, 24, 32, 0.06);
   }
 }
 
@@ -33,7 +53,7 @@
   }
 
   .particles-subtitle {
-    font-size: 1.75em;
+    font-size: 1.35em;
   }
 
   .particles-icon {
@@ -48,6 +68,22 @@
   .particles-scroll svg {
     -webkit-transform: scale(3.6);
     transform: scale(3.6);
+  }
+}
+
+@media screen and (max-width: 520px) {
+  #particles-js .jumbotron {
+    width: 100%;
+    padding: 0 1em;
+  }
+
+  .particles-title {
+    font-size: 1.85em;
+    white-space: normal;
+  }
+
+  .particles-subtitle {
+    font-size: 0.95em;
   }
 }
 

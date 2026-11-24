@@ -1,23 +1,32 @@
 <div id="particles-js" class="fullscreen">
   <div class="jumbotron text-center">
     {% if site.photo %}
-    <img class="particles-photo" src="{{site.photo}}">
+    <img class="particles-photo" src="{{ site.photo | relative_url }}" alt="{{ site.author.name }}">
     {% endif %}
     <h1 class="particles-title">{{ site.title }}</h1>
-    <h1 class="particles-subtitle">{{ site.taglong }}</h1>
+    <h1 class="particles-subtitle">
+      <span class="term-prompt">~$</span>
+      <span class="typed-text" data-typed="{{ site.taglong }}|Software Engineer|PHP Lover|Claude Ninja|AI skeptic"></span>
+      <span class="caret" aria-hidden="true"></span>
+    </h1>
+    <div class="hero-chips">
+      <span class="hero-chip">{{ site.address }}</span>
+      <span class="hero-chip">Remote</span>
+      <span class="hero-chip">Backend · Fintech</span>
+    </div>
     <div class="nowrap">
       {% if site.social.linkedin %}
-      <a class="particles-icon" href="https://www.linkedin.com/in/{{ site.social.linkedin }}">{% include svg/linkedin.svg %}</a>
+      <a class="particles-icon" href="https://www.linkedin.com/in/{{ site.social.linkedin }}" aria-label="LinkedIn">{% include svg/linkedin.svg %}</a>
       {% endif %}
       {% if site.social.github %}
-      <a class="particles-icon" href="https://github.com/{{ site.social.github }}">{% include svg/github.svg %}</a>
+      <a class="particles-icon" href="https://github.com/{{ site.social.github }}" aria-label="GitHub">{% include svg/github.svg %}</a>
       {% endif %}
       {% if site.social.stackoverflow %}
-      <a class="particles-icon" href="https://stackoverflow.com/users/{{ site.social.stackoverflow }}">{% include svg/stackoverflow.svg %}</a>
+      <a class="particles-icon" href="https://stackoverflow.com/users/{{ site.social.stackoverflow }}" aria-label="Stack Overflow">{% include svg/stackoverflow.svg %}</a>
       {% endif %}
     </div>
   </div>
   <div class="particles-scroll">
-    <a class="particles-icon" href="#scroll">{% include svg/nav-arrow-down.svg %}</a>
+    <a class="particles-icon" href="#scroll" aria-label="Scroll down">{% include svg/nav-arrow-down.svg %}</a>
   </div>
 </div>

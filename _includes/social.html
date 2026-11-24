@@ -1,11 +1,44 @@
-<h2>🌐 Social Networks</h2>
+<h2 id="social-networks">🌐 Social Networks</h2>
 
 <hr>
 
-<div class="social">
-    <div class="badge-base LI-profile-badge" data-locale="en_EN" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="mgaratem" data-version="v1">
-        <a class="badge-base__link LI-simple-link" href="https://cl.linkedin.com/in/mgaratem?trk=profile-badge"></a>
-    </div>
+<div class="link-cards" data-reveal>
+    {% if site.social.linkedin %}
+    <a class="link-card" href="https://www.linkedin.com/in/{{ site.social.linkedin }}" target="_blank" rel="noopener">
+        <span class="link-card-icon">{% include svg/linkedin.svg %}</span>
+        <span class="link-card-text">
+            <strong>LinkedIn</strong>
+            <small>/in/{{ site.social.linkedin }}</small>
+        </span>
+        <span class="link-card-arrow">↗</span>
+    </a>
+    {% endif %}
+    {% if site.social.github %}
+    <a class="link-card" href="https://github.com/{{ site.social.github }}" target="_blank" rel="noopener">
+        <span class="link-card-icon">{% include svg/github.svg %}</span>
+        <span class="link-card-text">
+            <strong>GitHub</strong>
+            <small>@{{ site.social.github }}</small>
+        </span>
+        <span class="link-card-arrow">↗</span>
+    </a>
+    {% endif %}
+    {% if site.social.stackoverflow %}
+    <a class="link-card" href="https://stackoverflow.com/users/{{ site.social.stackoverflow }}" target="_blank" rel="noopener">
+        <span class="link-card-icon">{% include svg/stackoverflow.svg %}</span>
+        <span class="link-card-text">
+            <strong>Stack Overflow</strong>
+            <small>Q&amp;A profile</small>
+        </span>
+        <span class="link-card-arrow">↗</span>
+    </a>
+    {% endif %}
+    <a class="link-card" href="mailto:{{ site.author.email }}">
+        <span class="link-card-icon">{% include svg/mail.svg %}</span>
+        <span class="link-card-text">
+            <strong>Email</strong>
+            <small>{{ site.author.email }}</small>
+        </span>
+        <span class="link-card-arrow">↗</span>
+    </a>
 </div>
-
-              
